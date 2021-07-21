@@ -30,5 +30,7 @@ Ator primário: Profissional de Saúde
 - c. O Profissional de Saúde seleciona um paciente.
 - d. O sistema apresenta os detalhes da paciente no formulário de pacientes. 
 
-## Fluxo de Exceção(4): Viola a [RN00](./regrasnegocios.md#RegraNegocio00) - Paciente nao reside em Divinópolis
+## Fluxo de Exceção(4): Viola a [RN00](./regrasnegocios.md#regranegocio00) - Paciente nao reside em Divinópolis
 - O sistema informa que nao é possível registrar um cidadao nao residente da cidade, e o caso retorna ao passo 2.
+  
+Regras de Negócio: [RN00](./regrasnegocios.md#regranegocio00)
