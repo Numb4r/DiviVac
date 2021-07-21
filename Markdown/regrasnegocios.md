@@ -15,7 +15,7 @@ Template :
   
 ## RegraNegocio01
 - **Nome**: Sincronização do calendário municipal
-- **Descrição**: O calendário municipal deve ser sincronizado com o calendario da SBIm (Sociedade Brasileira de Imunizações).
+- **Descrição**: O calendário municipal deve ser sincronizado com o calendário da SBIm (Sociedade Brasileira de Imunizações).
 
 ## RegraNegocio02
 - **Nome**: Disparo de notificações
@@ -31,3 +31,6 @@ Template :
   - Todo inicio e fim de campanha. 
   - A cada trés semanas caso uma campanha tenha a duração maior que dois meses.
 
+## RegraNegocio05
+- **Nome**: Campanhas sao especificar
+- **Descrição**: Campanhas de vacinação devem especificar a numeração da(s) vacina(s) que sera usada
