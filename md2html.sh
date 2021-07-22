@@ -9,5 +9,8 @@ img="${folder}/img"
 [[ ! -d $css ]] && mkdir $css
 [[ ! -d $img ]] && mkdir $img
 ls $target | grep .md | cut -d . -f 1 | xargs -t -I {} pandoc -f markdown $target/{}.md  -o $html/{}.html
-ls $html/ | grep .html| xargs  -I {} sed -i "1 i <head><link rel='stylesheet' href='style.css'></head>" $html/{}
+ls $html/ | grep .html| xargs  -I {} sed -i "1 i <head><link rel='stylesheet' href='../css/style.css'></head>" $html/{}
 ls $html/ | grep .html | xargs -I {} sed -i "s/.md/.html/g" $html/{}
+ls $html/ | grep .html | xargs -I {} sed -i "s/doc\//img\//g" $html/{}
+cp doc/*.css $css
+cp doc/*.jpg $img
