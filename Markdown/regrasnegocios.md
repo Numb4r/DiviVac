@@ -38,3 +38,14 @@ Template :
 ## RegraNegocio06
 - **Nome**: Sincronização obrigatória
 - **Descrição**: Todo final de mes o calendário municipal ira sincronizar automaticamente com o calendário fornecido pela SBIm.
+
+## RegraNegocio07
+- **Nome**: Reserva e baixa automática de vacinas
+- **Descrição**: Todo agendamento de aplicação deve reservar no estoque a vacina destinada ao paciente e deve contabilizar uma baixa apos a confirmação da aplicação.
+
+## RegraNegocio08
+- **Nome**: Nao fornecer vacinas vencidas
+- **Descrição**: O sistema nao deve fornecer vacinas apos a sua data de vencimento.
+## RegraNegocio09
+- **Nome**: Prioridade de aplicações em lotes perto da data limite
+- **Descrição**: O sistema deve priorizar lotes que estão perto da sua data de vencimento.
