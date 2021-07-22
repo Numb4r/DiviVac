@@ -12,7 +12,7 @@ Ator primário: Profissional de Saúde
 
 ## Fluxo Alternativo (4): Inclusão
 - a. O Profissional de Saúde requisita a inclusão de um lote de vacinas.
-- b. O sistema apresenta um formulário em branco para que os detalhes do paciente (numero do lote,nome da vacina,código da vacina,quantidade de vacinas,descrição da imunização,contra indicações,bula) sejam incluídos.
+- b. O sistema apresenta um formulário em branco para que os detalhes do paciente (numero do lote,nome da vacina,código da vacina,quantidade de vacinas,descrição da imunização,contra indicações,data de vencimento,bula) sejam incluídos.
 - c. O Profissional de Saúde fornece os detalhes do novo lote de vacinas.
 - d. O sistema apresenta uma lista de campanhas correntes ou futuras que usam este tipo de vacina para que o Profissional de Saúde selecione para que o lote seja vinculado.
 - e. O Profissional de Saúde seleciona uma ou mais campanhas para que o lote seja vinculado.
