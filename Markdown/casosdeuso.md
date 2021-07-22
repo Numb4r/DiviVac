@@ -1,5 +1,5 @@
 # Casos de Uso do DiviVac
-<!-- ![](img) -->
+![](../doc/casodeuso.jpg)
 ## Controle de Vacinação de Paciente
 - Manter paciente ([CSU01](./CSU01.md)).
 - Realizar agendamento da aplicação([CSU02](./CSU02.md)).
