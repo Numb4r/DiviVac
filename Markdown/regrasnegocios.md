@@ -34,3 +34,7 @@ Template :
 ## RegraNegocio05
 - **Nome**: Campanhas sao especificar
 - **Descrição**: Campanhas de vacinação devem especificar a numeração da(s) vacina(s) que sera usada
+  
+## RegraNegocio06
+- **Nome**: Sincronização obrigatória
+- **Descrição**: Todo final de mes o calendário municipal ira sincronizar automaticamente com o calendário fornecido pela SBIm.
