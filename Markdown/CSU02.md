@@ -1,13 +1,13 @@
-# Realizar agendamento da aplicação
-Sumario: Profissional de Saúde realiza o agendamento de uma aplicação de vacina em um paciente.
+# Realizar agendamento da aplicação (CSU02)
+Sumário: Profissional de Saúde realiza o agendamento de uma aplicação de vacina em um paciente.
 
 Ator Primário: Profissional de Saúde.
 Ator Secundário: Paciente.
 
 ## Fluxo Principal
-1. O Profissional de Saúde requisita a identificação do Paciente (nome,CPF)
+1. O Profissional de Saúde requisita a identificação do Paciente (nome e CPF)
 2. O Profissional requisita um agendamento de aplicação.
-3. O sistema requisita as informações do Paciente (nome,CPF) para que seja feito o agendamento.
+3. O sistema requisita as informações do Paciente (nome e CPF) para que seja feito o agendamento.
 4. O Profissional de Saúde fornece os dados do Paciente.
 5. O sistema apresenta a lista de campanhas de vacinação atuais e futuras.
 6. O Profissional de Saúde seleciona a campanha.

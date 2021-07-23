@@ -1,18 +1,18 @@
-# Manter Calendário (CSU01)
-Sumario: Profissional de Saúde realiza o cadastro (inclusão, remoção, alteração e consulta) e sincronização de campanhas de vacinação.
-Ator primário: Profissional de Saúde
+# Manter Calendário (CSU03)
+Sumário: Profissional de Saúde realiza o cadastro (inclusão, remoção, alteração e consulta) e sincronização de campanhas de vacinação.
+Ator primário: Profissional de Saúde.
 
 
 ## Fluxo Principal
 1. O Profissional de Saúde requisita a manutenção do calendário.
-2. O sistema apresenta as operações que podem ser realizadas: a inclusão de uma nova campanha,a alteração do dados de uma campanha, a exclusão de uma campanha, a consulta de uma campanha, a sincronização do calendário municipal e consulta no calendário.
+2. O sistema apresenta as operações que podem ser realizadas: a inclusão de uma nova campanha, a alteração do dados de uma campanha, a exclusão de uma campanha, a consulta de uma campanha, a sincronização do calendário municipal e consulta no calendário.
 3. O Profissional de Saúde indica a opção a realizar ou opta por finalizar o caso de uso.
-4. O Profissional de Saúde seleciona a operação desejada: Inclusão, Exclusão, Alteração,Consulta,Sincronização ou Consulta Calendário.
+4. O Profissional de Saúde seleciona a operação desejada: Inclusão, Exclusão, Alteração,Consulta, Sincronização ou Consulta Calendário.
 5. Se o Profissional de Saúde deseja continuar com a manutenção, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina. 
 
 ## Fluxo Alternativo (4): Inclusão
 - a. O Profissional de Saúde requisita a inclusão de uma campanha.
-- b. O sistema apresenta um formulário em branco para que os detalhes da campanha (código,descrição,data inicio,data termino,vacinas usadas,locais de aplicação) sejam incluídos.
+- b. O sistema apresenta um formulário em branco para que os detalhes da campanha (código, descrição, data início, data término, vacinas usadas e locais de aplicação) sejam incluídos.
 - c. O Profissional de Saúde fornece os detalhes da nova campanha.
 - e. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui a nova campanha; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação. 
 
@@ -25,7 +25,7 @@ Ator primário: Profissional de Saúde
 - b. O sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de campanhas. 
 
 ## Fluxo Alternativo (4): Consulta
-- a. O Profissional de Saúde solicita a realização de uma consulta 
+- a. O Profissional de Saúde solicita a realização de uma consulta .
 - b. O sistema requisita o código da campanha.
 - c. O Profissional de Saúde fornece o código da campanha.
 - d. O sistema apresenta os detalhes da campanha no formulário de campanhas.
@@ -37,7 +37,7 @@ Ator primário: Profissional de Saúde
 
 ## Fluxo Alternativo (4): Consulta no Calendário
 - a. O Profissional de Saúde solicita a consulta no calendário.
-- b. O sistema requisita o a data de inicio e a data de termino da consulta.
-- c. O Profissional de Saúde fornece a data de inicio e da data de termino.
-- d. O sistema apresenta o calendário correspondente a data de inicio e termino fornecidas
+- b. O sistema requisita a data de início e a data de término da consulta.
+- c. O Profissional de Saúde fornece a data de início e a data de término.
+- d. O sistema apresenta o calendário correspondente a data de início e término fornecidas.
 

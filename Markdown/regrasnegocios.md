@@ -10,7 +10,7 @@ Template :
 
 
 ## RegraNegocio00
-- **Nome**: Paciente nao residente.
+- **Nome**: Paciente não residente.
 - **Descrição**: Paciente deve ser residente da cidade de Divinópolis para que seja cadastrado.\
   
 ## RegraNegocio01
@@ -28,24 +28,24 @@ Template :
 ## RegraNegocio04
 - **Nome**: Emissão de extrato
 - **Descrição**: Um extrato de estoque deve ser emitido em duas situações
-  - Todo inicio e fim de campanha. 
+  - Todo início e fim de campanha. 
   - A cada trés semanas caso uma campanha tenha a duração maior que dois meses.
 
 ## RegraNegocio05
-- **Nome**: Campanhas sao especificar
-- **Descrição**: Campanhas de vacinação devem especificar a numeração da(s) vacina(s) que sera usada
+- **Nome**: Campanhas sem especificação
+- **Descrição**: Campanhas de vacinação devem especificar a numeração das vacinas que serão usadas.
   
 ## RegraNegocio06
 - **Nome**: Sincronização obrigatória
-- **Descrição**: Todo final de mes o calendário municipal ira sincronizar automaticamente com o calendário fornecido pela SBIm.
+- **Descrição**: Todo final de mês o calendário municipal irá sincronizar automaticamente com o calendário fornecido pela SBIm.
 
 ## RegraNegocio07
 - **Nome**: Reserva e baixa automática de vacinas
-- **Descrição**: Todo agendamento de aplicação deve reservar no estoque a vacina destinada ao paciente e deve contabilizar uma baixa apos a confirmação da aplicação.
+- **Descrição**: Todo agendamento de aplicação deve reservar no estoque a vacina destinada ao paciente e deve contabilizar uma baixa após a confirmação da aplicação.
 
 ## RegraNegocio08
-- **Nome**: Nao fornecer vacinas vencidas
-- **Descrição**: O sistema nao deve fornecer vacinas apos a sua data de vencimento.
+- **Nome**: Não fornecer vacinas vencidas
+- **Descrição**: O sistema não deve fornecer vacinas após a sua data de vencimento.
 ## RegraNegocio09
 - **Nome**: Prioridade de aplicações em lotes perto da data limite
 - **Descrição**: O sistema deve priorizar lotes que estão perto da sua data de vencimento.
