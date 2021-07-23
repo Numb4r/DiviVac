@@ -22,6 +22,7 @@ O sistema será construído de forma modularizada, com cada módulo se comunican
 
 
 Analistas: 
+
 - Yuri Dimitre Dias de Faria
 - Diego Henrique Almeida Trindade
 - Victor Geraldo Faria Costa
