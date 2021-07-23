@@ -19,4 +19,3 @@ O sistema será construido de forma modularizada, com cada módulo se comunicand
 - [Lista de Atores](./atores.md)
 - [Lista de casos de uso](./casosdeuso.md)
 - [Visão de Classes Participantes (VCP)](./vcp.md)
-- [Glossário](./glossario.md)
