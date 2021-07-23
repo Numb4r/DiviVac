@@ -46,6 +46,7 @@ Template :
 ## RegraNegocio08
 - **Nome**: Não fornecer vacinas vencidas
 - **Descrição**: O sistema não deve fornecer vacinas após a sua data de vencimento.
+  
 ## RegraNegocio09
 - **Nome**: Prioridade de aplicações em lotes perto da data limite
 - **Descrição**: O sistema deve priorizar lotes que estão perto da sua data de vencimento.
