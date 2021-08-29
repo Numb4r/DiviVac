@@ -13,4 +13,4 @@ ls $html/ | grep .html | xargs  -I {} sed -i "1 i <head><link rel='stylesheet' h
 ls $html/ | grep .html | xargs -I {} sed -i "s/.md/.html/g" $html/{}
 ls $html/ | grep .html | xargs -I {} sed -i "s/doc\//img\//g" $html/{}
 cp doc/*.css $css
-cp doc/*.{jpg,jpeg} $img
+cp doc/*.{jpg,jpeg,png} $img
