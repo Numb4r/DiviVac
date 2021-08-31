@@ -10,6 +10,7 @@
 ### Observer
 
  Foi utilizado o padrão comportamental Observer nas classes Aplicacao, sendo ela a classe Observable, e Estoque, sendo ela a classe Observer. Esse padrão foi aplicado para que seja notificado quando ocorreu uma aplicação bem sucedida ao estoque,e seja debitado a vacina do mesmo.
+
 ### Singleton
 
-Foi utilizado o padrão Singleton em todas as classes concretas de gerenciamento para que n~ao ocorra concorrência dos dados e nem um recarregamento dos mesmos em diferentes partes do código.
+Foi utilizado o padrão Singleton em todas as classes concretas de gerenciamento para que não ocorra concorrência dos dados e nem um recarregamento dos mesmos em diferentes partes do código.
