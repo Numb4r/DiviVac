@@ -18,6 +18,7 @@ O sistema será construído de forma modularizada, com cada módulo se comunican
 - [Lista de regras de negócio](./regrasnegocios.md)
 - [Lista de casos de uso](./casosdeuso.md)
 - [Diagrama de classe de projeto](./classeprojeto.md)
+- [Diagrama de Interações](./interacoes.md)
 - [Lista de Atores](./atores.md)
 - [Visão de Classes Participantes (VCP)](./vcp.md)
 
